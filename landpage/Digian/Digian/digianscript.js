@@ -22,3 +22,11 @@ function irparaCont() {
         behavior: "smooth"
     });
 }
+function irparaInicio() {
+    const imagem = document.getElementById("ini");
+    const posicaoY = imagem.getBoundingClientRect().top;
+    window.scrollTo({
+        top: posicaoY,
+        behavior: "smooth"
+    });
+}
