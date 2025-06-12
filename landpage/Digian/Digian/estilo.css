@@ -235,3 +235,9 @@ a:hover{
   font-size: 16px;
   text-decoration: none;
 }
+.voltar{
+  position: absolute;
+  top: 2700px;
+  left: 800px;
+  z-index: 1;
+}
